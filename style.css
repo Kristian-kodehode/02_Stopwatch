@@ -41,8 +41,10 @@ span {
 
 .button-container {
   display: flex;
-  gap: 16px;
+  flex-direction: column;
+  /* gap: 16px; */
   justify-content: space-around;
+  align-items: center;
 }
 
 button {
@@ -55,6 +57,7 @@ button {
   border: none;
   cursor: pointer;
   transition: 0.2s;
+  margin: 8px;
 }
 button:hover {
   transform: scale(1.1);
@@ -63,6 +66,10 @@ button:hover {
 /* button:active {
   background-color: rgba(0, 0, 0, 0.155);
 } */
+
+.button-start {
+  width: 144px;
+}
 .button-container .button-start {
   background-color: #00bf0c;
   border: 1px solid #1aff28;
