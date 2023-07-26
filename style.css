@@ -15,12 +15,13 @@ span {
   font-weight: 700;
 }
 .stopwatch-container {
-  margin: 0 auto;
+  margin: 40px auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 400px;
   gap: 16px;
+  border: 1px solid black;
 }
 .stopwatch-display {
   border: 3px solid black;
