@@ -75,7 +75,7 @@ const renderTime = () => {
   // displayHours.textContent = pad(hoursValue);
   displayMinutes.textContent = pad(minutesValue);
   displaySeconds.textContent = pad(secondsValue);
-  displayMilliSeconds.textContent = pad(millisecondsValue, 2);
+  displayMilliSeconds.textContent = pad(millisecondsValue, 3);
 };
 
 //Displays the entire 00:00:00 and makes sure it looks nice:
