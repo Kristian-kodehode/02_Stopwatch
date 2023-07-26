@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-align: center;
 }
 
@@ -24,7 +24,9 @@ span {
 }
 .stopwatch-display {
   border: 3px solid black;
-  background: linear-gradient(to right, rgb(255, 240, 240), yellow);
+  /* background: linear-gradient(to right, rgb(255, 240, 240), yellow); */
+  background-color: #212226;
+  color: #d9bbb4;
   border-radius: 300px;
   width: 300px;
   height: 300px;
