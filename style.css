@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+span {
+  font-size: 56px;
+  font-weight: 700;
+}
+.stopwatch-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  gap: 16px;
+}
+
+.stopwatch p {
+  font-size: 56px;
+}
+
+.button-container {
+  display: flex;
+  gap: 16px;
+  justify-content: space-around;
+}
+
+button {
+  border-radius: 100px;
+  width: 72px;
+  height: 72px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+/* button:active {
+  background-color: rgba(0, 0, 0, 0.155);
+} */
+.button-container .button-start {
+  background-color: green;
+}
+.button-stop {
+  background-color: red;
+}
+.button-reset {
+  background-color: orange;
+}
+
+.watchrounds {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
