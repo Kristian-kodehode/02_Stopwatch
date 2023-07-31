@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 :root {
-  --col-black: #393e46;
+  --col-black: #222831;
   --col-sec: #fce38a;
 }
 
@@ -20,31 +20,25 @@ span {
 }
 
 .stopwatch-container {
+  padding: 16px;
   margin: 40px auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 400px;
   gap: 16px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  background-color: var(--col-sec);
 }
 .stopwatch-display {
-  border: 3px solid black;
-  /* background: linear-gradient(to right, rgb(255, 240, 240), yellow); */
-  background-color: #212226;
-  color: #d9bbb4;
-  /* border-radius: 300px; */
-  /* width: 300px; */
+  background-color: var(--col-black);
+  color: var(--col-sec);
   width: 100%;
-
   height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
-}
-.stopwatch p {
-  font-size: 56px;
 }
 
 .button-container {
@@ -56,16 +50,17 @@ span {
 }
 
 button {
-  border-radius: 100px;
+  border-radius: 16px;
   width: 72px;
   height: 72px;
   text-align: center;
   color: white;
   font-weight: 700;
-  border: none;
+  border: 3px solid var(--col-black);
   cursor: pointer;
   transition: 0.2s;
   margin: 8px;
+  box-shadow: 3px 3px 1px var(--col-black);
 }
 button:hover {
   transform: scale(1.1);
@@ -76,11 +71,11 @@ button:hover {
 } */
 
 .button-start {
-  width: 144px;
+  width: 100%;
 }
 .button-container .button-start {
-  background-color: #00bf0c;
-  border: 1px solid #1aff28;
+  background-color: var(--col-sec);
+  color: var(--col-black);
 }
 .button-stop {
   background-color: red;
