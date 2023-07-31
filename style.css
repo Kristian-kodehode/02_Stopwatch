@@ -53,7 +53,7 @@ span {
 
 button {
   border-radius: 16px;
-  width: 72px;
+  /* width: 72px; */
   height: 72px;
   text-align: center;
   color: white;
@@ -63,6 +63,7 @@ button {
   transition: 0.2s;
   margin: 8px;
   box-shadow: 3px 3px 1px var(--col-black);
+  width: 100%;
 }
 button:hover {
   transform: scale(1.1);
@@ -73,7 +74,6 @@ button:hover {
 } */
 
 .button-start {
-  width: 100%;
   font-size: 16px;
   transform: skewX(-4deg);
 }
@@ -86,6 +86,11 @@ button:hover {
 }
 .button-reset {
   background-color: orange;
+}
+.button-stop-reset-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .watchrounds {
