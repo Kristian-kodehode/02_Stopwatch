@@ -8,6 +8,7 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
+  background-color: var(--col-sec);
 }
 :root {
   --col-black: #222831;
@@ -28,7 +29,6 @@ span {
   width: 400px;
   gap: 16px;
   /* border: 1px solid black; */
-  background-color: var(--col-sec);
 }
 .stopwatch-display {
   background-color: var(--col-black);
@@ -86,6 +86,7 @@ button:hover {
 }
 .button-reset {
   background-color: orange;
+  color: var(--col-black);
 }
 .button-stop-reset-container {
   display: flex;
