@@ -16,6 +16,7 @@ body {
   --col-stop: #f38181;
 }
 header {
+  width: 100vw;
   padding: 40px;
   border: 1px solid black;
   background-color: rgba(255, 255, 255, 0.4);
@@ -30,19 +31,18 @@ span {
 }
 
 .stopwatch-container {
-  padding: 32px;
+  padding: 16px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 400px;
+  min-width: 350px;
   gap: 16px;
-  /* border: 1px solid black; */
 }
 .stopwatch-display {
   background-color: var(--col-black);
   color: var(--col-sec);
-  width: 100%;
+  /* width: 100%; */
   height: 300px;
   display: flex;
   align-items: center;
@@ -50,6 +50,7 @@ span {
   margin: auto;
   border-radius: 8px;
   transform: skewX(-4deg);
+  padding: 16px;
 }
 
 .button-container {
@@ -73,7 +74,7 @@ button {
   transition: 0.2s;
   margin: 8px;
   box-shadow: 3px 3px 1px var(--col-black);
-  width: 100%;
+  width: 90%;
 }
 button:hover {
   transform: scale(1.1);
