@@ -20,7 +20,7 @@ span {
 }
 
 .stopwatch-container {
-  padding: 16px;
+  padding: 32px;
   margin: 40px auto;
   display: flex;
   justify-content: center;
@@ -39,6 +39,8 @@ span {
   align-items: center;
   justify-content: center;
   margin: auto;
+  border-radius: 8px;
+  transform: skewX(-4deg);
 }
 
 .button-container {
@@ -72,6 +74,8 @@ button:hover {
 
 .button-start {
   width: 100%;
+  font-size: 16px;
+  transform: skewX(-4deg);
 }
 .button-container .button-start {
   background-color: var(--col-sec);
