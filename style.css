@@ -115,6 +115,11 @@ button:hover {
 .counter-display {
   padding: 0px 8px;
 }
+.display-number-containers {
+  text-align: left;
+  border: 1px solid white;
+  padding: 4px;
+}
 
 /*
 
