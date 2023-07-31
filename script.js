@@ -6,7 +6,6 @@ const displayHours = document.querySelector("#hours");
 const displayMinutes = document.querySelector("#minutes");
 const displaySeconds = document.querySelector("#seconds");
 const displayMilliSeconds = document.querySelector("#milliseconds");
-
 //Buttons for the stopwatch.
 const startBtn = document.querySelector("#start-btn");
 const stopBtn = document.querySelector("#stop-btn");
@@ -27,7 +26,7 @@ const startTimer = () => {
     }, 10);
   } else {
     const currentTime = {
-      hours: pad(parseInt(displayHours.textContent)),
+      // hours: pad(parseInt(displayHours.textContent)),
       minutes: pad(parseInt(displayMinutes.textContent)),
       seconds: pad(parseInt(displaySeconds.textContent)),
       milliseconds: pad(parseInt(displayMilliSeconds.textContent), 3),

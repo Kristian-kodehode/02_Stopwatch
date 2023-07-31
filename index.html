@@ -19,12 +19,21 @@
     <div class="stopwatch-container">
       <div id="stopwatch" class="stopwatch-display">
         <!-- Her kan det skrives 00 for legge til timer preShow -->
-        <span id="hours"></span>
-        <span id="minutes">00</span>
+        <!-- <span id="hours" class="counter-display"></span> -->
+        <div>
+          <span id="minutes" class="counter-display">00</span>
+          <h5>m</h5>
+        </div>
 
-        <span id="seconds">00</span>
+        <div>
+          <span id="seconds" class="counter-display">00</span>
+          <h5>s</h5>
+        </div>
 
-        <span id="milliseconds">000</span>
+        <div>
+          <span id="milliseconds" class="counter-display">000</span>
+          <h5>ms</h5>
+        </div>
       </div>
       <div class="button-container">
         <button id="start-btn" class="button-start">Start</button>
