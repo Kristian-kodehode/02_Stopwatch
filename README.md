@@ -1,4 +1,6 @@
-# Stopwatch
+# Stopwatch - html , css, js
 
 Vanilla JS project making a stopwatch.
-This is a fun project where i got to try different methods and test my logic sense. Used GPT as per usual to assist me make good choices and keep a clear head.
+This is the first project that properly challenged me with logical thinking
+and it was hard to get right.
+I also used GPT as per usual to assist me make good choices, do checking and keep a clear head.
