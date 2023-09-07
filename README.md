@@ -3,4 +3,8 @@
 Vanilla JS project making a stopwatch.
 This is the first project that properly challenged me with logical thinking
 and it was hard to get right.
-I also used GPT as per usual to assist me make good choices, do checking and keep a clear head.
+
+-Minor updates has been done to improve user experience.
+
+1. rounds now show round number.
+2. Rounds font size is scaled up.
