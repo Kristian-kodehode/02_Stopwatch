@@ -15,7 +15,7 @@ let startTime;
 let elapsedTime = 0;
 let timerInterval;
 let clickCount = 0;
-const timeIntervals = [];
+const rounds = [];
 
 const startTimer = () => {
   if (clickCount === 0) {
@@ -36,10 +36,12 @@ const startTimer = () => {
       resetTimer();
     }
     const storedTimeText = document.createElement("p");
-    storedTimeText.textContent = `Round time : ${currentTime.minutes} : ${currentTime.seconds} , ${currentTime.milliseconds}`;
+    storedTimeText.textContent = `Round ${rounds.length + 1} : ${
+      currentTime.minutes
+    } : ${currentTime.seconds} , ${currentTime.milliseconds}`;
     watchrounds.appendChild(storedTimeText);
 
-    timeIntervals.push(currentTime);
+    rounds.push(currentTime);
     startTimer();
   }
 
@@ -56,7 +58,7 @@ const stopTimer = () => {
 const resetTimer = () => {
   clearInterval(timerInterval);
   elapsedTime = 0;
-  // timeIntervals.length = 0;
+  // rounds.length = 0;
   renderTime();
   clickCount = 0;
   startBtn.textContent = "Start";

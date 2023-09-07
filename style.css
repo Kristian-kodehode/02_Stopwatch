@@ -115,8 +115,9 @@ button:hover {
 
 .watchrounds {
   text-align: center;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
+  line-height: 32px;
 }
 
 .counter-display {
