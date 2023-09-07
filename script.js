@@ -58,7 +58,6 @@ const stopTimer = () => {
 const resetTimer = () => {
   clearInterval(timerInterval);
   elapsedTime = 0;
-  // rounds.length = 0;
   renderTime();
   clickCount = 0;
   startBtn.textContent = "Start";
@@ -88,6 +87,7 @@ stopBtn.addEventListener("click", stopTimer);
 resetBtn.addEventListener("click", resetTimer);
 resetBtn.addEventListener("click", function () {
   const displayRounds = document.querySelectorAll("p");
+  rounds.length = 0;
   displayRounds.forEach((displayRound) => {
     displayRound.remove();
   });
